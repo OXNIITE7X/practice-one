@@ -14,15 +14,4 @@ else:
     if not contains_a_digit:
         print("- Must contain a digit (0-9)")
     if not contains_an_uppercase_letter:
-        print("- Must cntain an  uppercase letter")
-
-
-
-
-
-count = 0
-for number in range(1, 10):
-    if number % 2 == 0:
-        count += 1
-        print(number)
-print(f"We have {count} even numbers")
+        print("- Must contain an  uppercase letter")
